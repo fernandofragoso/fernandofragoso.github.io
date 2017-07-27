@@ -1,0 +1,43 @@
+body {
+  display: flex;
+  justify-content: center;
+  /*min-height: 100vh;*/
+  font-family: monospace;
+  background-color: #999;
+}
+
+h1 {
+  color: #000;
+  font-size: 30px;
+}
+
+a, a:link, a:visited {
+  color: #000;
+}
+
+a:hover {
+  color: #FFF;
+}
+
+.content {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 960px;
+  margin: 300px 0;
+}
+
+.title {
+  width: auto;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width: auto;
+}
+
+.link-item {
+  margin: 0px 20px;
+}

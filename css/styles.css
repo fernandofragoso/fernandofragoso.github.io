@@ -2,20 +2,30 @@ body {
   display: flex;
   justify-content: center;
   font-family: monospace;
-  background-color: #999;
+  background-color: #333;
 }
 
 h1 {
-  color: #000;
+  color: #999;
   font-size: 30px;
 }
 
+ul {
+  list-style:none;
+  margin: 0;
+  padding: 0;
+}
+
 a, a:link, a:visited {
-  color: #000;
+  -moz-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  color: #999;
 }
 
 a:hover {
-  color: #FFF;
+  color: #FFA500;
 }
 
 .content {
@@ -28,6 +38,7 @@ a:hover {
 
 .title {
   width: auto;
+  height: 100px;
 }
 
 .links {
@@ -37,6 +48,18 @@ a:hover {
   width: auto;
 }
 
-.link-item {
+.links-list {
+  display: flex;
+  flex-direction: row;
+}
+
+.links-list li {
   margin: 0px 20px;
+}
+
+.links-list li a:hover {
+  /*margin: 0px 40px;*/
+  svg {
+    width: 30px;
+  }
 }

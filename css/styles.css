@@ -1,7 +1,6 @@
 body {
   display: flex;
   justify-content: center;
-  /*min-height: 100vh;*/
   font-family: monospace;
   background-color: #999;
 }
